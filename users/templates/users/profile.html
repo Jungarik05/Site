@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Личная страница</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-md">
+        <h1 class="text-2xl font-bold mb-4">Личная страница</h1>
+        <p><strong>Электронная почта:</strong> {{ email }}</p>
+        <p><strong>Многоканальный телефон:</strong> {{ phone }}</p>
+        <div class="mt-4">
+            <a href="{{ finance_url }}" class="block bg-green-500 text-white rounded py-2 text-center">Мои финансы</a>
+            <a href="{{ support_url }}" class="block bg-green-500 text-white
